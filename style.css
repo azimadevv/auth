@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  background-color: #090446;
+  height: 100vh;
+  width: 600px;
+  border-top-right-radius: 400px;
+  border-bottom-right-radius: 400px;
+}
+.welcome img {
+  width: 450px;
+}
+.welcome-text {
+  padding: 50px 0;
+}
+a {
+  text-decoration: none;
+}
+#welcome {
+  display: flex;
+  gap: 15%;
+}
+.welcome-text h1 {
+  color: #090446;
+  font-size: 48px;
+  font-weight: 700;
+}
+.welcome-text h4 {
+  color: #090446;
+  font-size: 20px;
+  font-weight: 400;
+}
+.welcome-text p {
+  color: #090446;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.input-up {
+  margin-top: 35px;
+}
+.input-up input {
+  width: 500px;
+  height: 45px;
+  border-radius: 12px;
+  background-color: #09044633;
+  border: none;
+}
+.input-down {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+.input-down input {
+  background-color: #09044633;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.input-down p {
+  margin-right: 180px;
+}
+.input-right {
+  color: #090446;
+  font-size: 18px;
+  font-weight: 400;
+}
+.welcome-text button {
+  background-color: #f71735;
+  width: 500px;
+  height: 60px;
+  border: none;
+  color: #f8a81b;
+  font-size: 25px;
+  font-weight: 600;
+}
+.button-text h3 {
+  color: #090446;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.welcome-img {
+  margin-top: 30px;
+  display: flex;
+  gap: 90px;
+}
+
+.welcome-img img {
+  width: 55px;
+  height: 55px;
+}
+.register {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.register h5 {
+  color: #090446;
+  font-size: 18px;
+  font-weight: 400;
+}
+.register a {
+  color: #090446;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#register {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+.register-text {
+  margin: 60px 0 0 100px;
+}
+.register-text h1 {
+  color: #090446;
+  font-size: 48px;
+  font-weight: 700;
+}
+.register-text h3 {
+  color: #090446;
+  font-size: 20px;
+  font-weight: 400;
+}
+.register-text p {
+  color: #090446;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.all_input input {
+  border: none;
+}
+.inputs {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  border: none;
+}
+.inputs input {
+  width: 260px;
+  height: 45px;
+  border-radius: 12px;
+  background: #09044633;
+}
+.Email input {
+  width: 530px;
+  height: 45px;
+  background: #09044633;
+  border-radius: 12px;
+}
+.Password input {
+  width: 530px;
+  height: 45px;
+  background: #09044633;
+  border-radius: 12px;
+}
+.checkbox_2 {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.checkbox_2 input {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background: #09044633;
+  margin-right: 5px;
+}
+.checkbox_2 p a {
+  color: #090446;
+  font-weight: 600;
+}
+.register-text button {
+  background-color: #f71735;
+  width: 530px;
+  height: 70px;
+  color: #f8a81b;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+}
+.register-text h4 {
+  color: #090446;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+}
+.register_img {
+  background: #090446;
+  height: 100vh;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 400px;
+  border-bottom-left-radius: 400px;
+}
+.register_img img {
+  padding-left: 30%;
+  width: 450px;
+}
+.group-img {
+  margin-top: 30px;
+  display: flex;
+  gap: 90px;
+}
+.group-img img {
+  width: 55px;
+  height: 55px;
+}
